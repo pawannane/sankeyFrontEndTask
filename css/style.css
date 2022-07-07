@@ -1,0 +1,90 @@
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+imge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60%;
+  height: 100%;
+}
+
+.app {
+  height: 100vh;
+}
+
+.head1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.head2 {
+  padding-bottom: 24px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.remember {
+  margin-left: 94px;
+  text-decoration: none;
+}
+
+#signin {
+  background: url(/images/iconfinder_Google.png);
+  background-repeat: no-repeat;
+  background-position-x: 70px;
+  background-position-y: 14px;
+  background-color: #2d3748;
+  border-radius: 5px;
+  width: 100%;
+  color: white;
+  padding: 12px;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.footer {
+  padding: 10px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.btn {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.cent {
+  margin: 80px 0;
+}
+
+#login-error-msg-holder {
+  display: grid;
+  justify-items: center;
+}
+
+#login-error-msg {
+  padding: 4px 0;
+  font-weight: bold;
+  color: red;
+  opacity: 0;
+}
